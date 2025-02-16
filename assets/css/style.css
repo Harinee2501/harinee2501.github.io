@@ -259,3 +259,61 @@ nav {
         max-width: 100%;
     }
 }
+/* Experience Page */
+.experience-page {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 120px; /* Ensures content starts below menu bar */
+}
+
+.experience-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.experience-container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.experience-section {
+    margin-bottom: 40px;
+}
+
+.experience-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #f4a261;
+}
+
+.experience-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.experience-list li::before {
+    content: "•";
+    font-size: 22px;
+    color: #f4a261;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.experience-list p {
+    font-size: 16px;
+    color: #ddd;
+    margin-top: 5px;
+}
+
